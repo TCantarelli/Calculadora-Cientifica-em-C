@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1776652254 source:c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\main.c
+	<stdio.h>
+	"raiz.h"
+	"expoente.h"
+	"pitagoras.h"
+	"grausParaRad.h"
+
+1776649643 c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\raiz.h
+
+1776648897 source:c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\raiz.c
+	"raiz.h"
+	<math.h>
+
+1776649104 source:c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\expoente.c
+
+1776649293 c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\expoente.h
+
+1776649832 c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\pitagoras.h
+
+1776650319 source:c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\pitagoras.c
+	<stdio.h>
+	<math.h>
+
+1776650774 c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\grauspararad.h
+
+1776652470 source:c:\users\canta\onedrive\documentos\calculadora cientifica\calculadora cientifica\grauspararad.c
+	<stdio.h>
+	"grausParaRad.h"
+
