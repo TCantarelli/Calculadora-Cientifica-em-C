@@ -3,25 +3,27 @@
 #include "expoente.h"
 #include "pitagoras.h"
 #include "grausParaRad.h"
+#include "matrizInversa.h"
 
 int main ()
 {
     int option = 1;
     while(option)
     {
-        printf("Digite quais operações deseja fazer, 0 para sair:\n");
-        printf("1-Operações basicas\n");
+        printf("Digite quais operaï¿½ï¿½es deseja fazer, 0 para sair:\n");
+        printf("1-Operaï¿½ï¿½es basicas\n");
         printf("2-Trigonometria\n");
+        printf("3-Matrizes\n");
         scanf("%d", &option);
 
         if (option ==1)
         {
             printf("\n1-soma\n");
-            printf("2-subtração\n");
-            printf("3-Muliplicação\n");
-            printf("4-Divisão\n");
+            printf("2-subtraï¿½ï¿½o\n");
+            printf("3-Muliplicaï¿½ï¿½o\n");
+            printf("4-Divisï¿½o\n");
             printf("5-Raiz quadrada\n");
-            printf("6-potenciação\n");
+            printf("6-potenciaï¿½ï¿½o\n");
             scanf("%d", &option);
             if(option == 1)
             {   double nr, soma =0;
@@ -62,7 +64,7 @@ int main ()
                     multiplicacao *=nr;
                     scanf("%lf", &nr);
                 }
-                printf("A multipliacação é %lf", multiplicacao);
+                printf("A multipliacaï¿½ï¿½o ï¿½ %lf", multiplicacao);
 
             }
             if(option == 4)
@@ -96,9 +98,9 @@ int main ()
                 printf("O resultado eh %lf", resultado);
             }
         }
-        if(option == 2)
+        else if(option == 2)
         {
-            printf("Digite qual operação deseja fazer:\n");
+            printf("Digite qual operaï¿½ï¿½o deseja fazer:\n");
             printf("1-Pitagoras\n");
             printf("2-Conversao de angulos\n");
             scanf("%d", &option);
@@ -118,6 +120,16 @@ int main ()
 
             }
 
+        }
+        else if(option ==3)
+        {
+            printf("Qual deseja?\n");
+            printf("1-Calcular matriz inversa\n");
+            scanf("%d", &option);
+            if(option == 1)
+            {
+                matrizInversa();
+            }
         }
     }
 
